@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        // 阻止 babel 将代码转成 CommonJS，因为转换这一步将交由我们的 rollup 来完成
+        "modules": false
+      }
+    ]
+  ]
+}
